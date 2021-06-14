@@ -1,0 +1,204 @@
+body {
+  padding: 50px 0px 0px 0px;
+}
+
+.row-header {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  padding: 100px 30px 100px 30px;
+  margin: 0px auto;
+  background-image: url("https://wallup.net/wp-content/uploads/2017/11/22/397493-food-fruit.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+  color: floralwhite;
+  border-bottom-left-radius: 40% 20%;
+  border-bottom-right-radius: 40% 20%;
+}
+
+.navbar {
+  background-color: #9575CD !important;
+}
+
+.navbar .nav-link {
+  color: #f5f7f8 !important;
+}
+
+.navbar .active {
+  color: #310e55 !important;
+}
+
+.navbar .nav-link:hover {
+  color: #310e55 !important;
+  text-decoration: underline !important;
+}
+
+.row-content {
+  padding: 40px 0px 40px 0px;
+}
+
+.thead {
+  background-color: #512DA8;
+}
+
+h2 {
+  color: darkviolet;
+  border-bottom: 1px ridge #242222;
+}
+
+h3 {
+  margin: 2px;
+}
+
+.form {
+  border: #91b7cc solid;
+  border-radius: 15px;
+  background-image: url("https://image.freepik.com/free-vector/blank-purple-patterned-background-vector_53876-81246.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form .col-form-label {
+  color: ghostwhite;
+  font-weight: bold;
+}
+
+.card {
+  border: 1px solid #f2f8f9;
+  background-color: #e0d4e4;
+  border-radius: 4px;
+}
+
+.card:hover {
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  -webkit-box-shadow: 0px 14px 18px rgba(38, 38, 38, 0.2);
+          box-shadow: 0px 14px 18px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #cccccc;
+  background-color: white;
+}
+
+.rb {
+  height: 45px;
+  padding: 0;
+}
+
+a {
+  color: #dfd9e2;
+}
+
+.carousel {
+  background: #512DA8;
+  border-radius: 15px;
+}
+
+.carousel h2 {
+  color: floralwhite;
+}
+
+.carousel .carousel-item {
+  height: 300px;
+}
+
+.carousel .carousel-item img {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  min-height: 250px;
+  border-radius: 15px;
+}
+
+.carousel .carousel-item p {
+  color: floralwhite;
+}
+
+.carousel .carousel-item .carousel-caption {
+  margin-bottom: 30px;
+}
+
+.card-header {
+  background-color: indigo;
+}
+
+.card-header h3 {
+  color: whitesmoke;
+}
+
+.blockquote-footer {
+  background-color: #b55fd6;
+  color: floralwhite;
+}
+
+.modal-footer {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-color: #b5a9ec;
+  color: cornsilk;
+}
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+
+.modal-content {
+  border: #e8e2e9 solid;
+  border-radius: 5px;
+}
+
+.modal-content .modal-header {
+  background-color: #512DA8;
+}
+
+.modal-content .modal-header .modal-title {
+  color: floralwhite;
+}
+
+.modal-content .modal-header .close {
+  color: floralwhite;
+}
+
+.modal-content .modal-body {
+  background-color: #D1C4E9;
+}
+
+.footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("https://images.unsplash.com/photo-1552566626-52f8b828add9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://images.unsplash.com/photo-1552566626-52f8b828add9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  padding: 80px 0px 10px 0px;
+  color: #e0d4e4;
+  margin-top: 40px;
+}
+
+.footer h5 {
+  color: #D1C4E9;
+}
+
+.footer .add {
+  line-height: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .jumbotron {
+    padding: 10px 0px 30px 0px;
+  }
+  .footer {
+    padding: 20px 0px 10px  0px;
+  }
+  .footer .add {
+    line-height: 25px;
+  }
+  .collapse .nav-item {
+    -webkit-transition: width 5s, height 6s;
+    transition: width 5s, height 6s;
+  }
+}
+/*# sourceMappingURL=styless.css.map */
